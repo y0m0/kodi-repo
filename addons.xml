@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <addons>
-<addon id="plugin.video.kodipopcorntime.beta" name="KODI Popcorn Time beta" version="1.7.2b" provider-name="Markop159">
+<addon id="plugin.video.kodipopcorntime.beta" name="KODI Popcorn Time" version="1.7.2b" provider-name="Markop159">
     <requires>
         <import addon="xbmc.python" version="2.14.0"/>
     </requires>
@@ -37,7 +37,7 @@
         <nofanart>false</nofanart>
     </extension>
 </addon>
-<addon id="repository.y0m0-KODI" name="y0m0 Kodi repository" version="1.0.0" provider-name="y0m0">
+<addon id="plugin.y0m0.repository" name="y0m0 Kodi repository" version="1.0.0" provider-name="y0m0">
     <extension point="xbmc.addon.repository" name="y0m0 Kodi repository">
         <info compressed="false">https://raw.githubusercontent.com/y0m0/kodi-repo/master/addons.xml</info>
         <checksum>https://raw.githubusercontent.com/y0m0/kodi-repo/master/addons.xml.md5</checksum>
@@ -45,13 +45,13 @@
         <hashes>false</hashes>
     </extension>
     <extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<website><![CDATA[https://github.com/y0m0/kodi-repo/]]></website>
-		<source><![CDATA[https://github.com/y0m0/kodi-repo/]]></source>
-		<language>English</language>
-		<summary lang="en"><![CDATA[Repository for y0m0 Kodi Addons]]></summary>
-		<noicon>false</noicon>
-		<nofanart>false</nofanart>
+        <platform>all</platform>
+        <website><![CDATA[https://github.com/y0m0/kodi-repo/]]></website>
+        <source><![CDATA[https://github.com/y0m0/kodi-repo/]]></source>
+        <language>English</language>
+        <summary lang="en"><![CDATA[Repository for y0m0 Kodi Addons]]></summary>
+        <noicon>false</noicon>
+        <nofanart>false</nofanart>
     </extension>
 </addon>
 </addons>
